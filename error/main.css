@@ -1,0 +1,63 @@
+@media screen and ( min-width:600px) {
+    body{
+        background:url("https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkf7v62yj31kw0w04ky.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        font-family: Roboto,Noto,Helvetica,Arial,sans-serif;
+    }
+    }
+    @media screen and (max-width:1200px){
+        body{
+            background:url("https://ae01.alicdn.com/kf/H8f54b8e236a24bb1a2f0c534435408b1l.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            font-family: Roboto,Noto,Helvetica,Arial,sans-serif;
+        }
+    }
+    .zhezhao{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        background-color: rgba(100, 85, 85, 0.7);
+    }
+    .card{
+        
+        position: relative;
+        width:380px;
+        top:200px;
+        left:calc(50% - 190px);
+        background-color:#FFFFFF;
+        border-left:7px solid #e05567;
+        border-right:7px solid #e05567;
+        box-shadow:2px 2px 2px #8d8585;
+    }
+    .code{
+        font-size: 25px;
+        margin:5px 5px 10px 15px;
+    }
+    .msg{
+        font-size: 15px;
+        margin:20px 5px 15px 17px;
+    }
+    .btn{
+        font-size: 15px;
+        margin:15px 0 0 0;
+    }
+    hr{
+        border:none;
+        height:1px;
+        width:auto;
+        background-color:rgba(201, 187, 187, 0.7);
+
+    }
+    a{
+        color:grey;
+        font-size: 15px;
+        text-decoration:none;
+    }
